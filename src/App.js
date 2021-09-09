@@ -1,8 +1,15 @@
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+import React from 'react';
+import Historia from './components/Historia';
+
+class App extends React.Component {
+  render() 
+  {
+    return (
+      <div className="App">
+        <Historia/>
+      </div>
+    );
+  }
 }
 
 export default App;
